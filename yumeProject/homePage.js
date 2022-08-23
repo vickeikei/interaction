@@ -20,7 +20,7 @@ function draw() {
     background(0);
     image(img, 0, 0, 800, 600);
 
-    if (400 < mouseX && mouseX < 600 && mouseY < 600 && 0 < mouseY) {
+    if (400 < mouseX && mouseX < 600 && 0 < mouseY && mouseY < 600) {
         image(img2, 0, 0, 800, 600);
         document.getElementById("main-paragraph").style.display = "none";
         document.getElementById("paragraph-1").style.display = "none";
@@ -28,7 +28,7 @@ function draw() {
         document.getElementById("paragraph-3").style.display = "block";
         document.getElementById("enter").style.display = "none";
     }
-    else if (300 < mouseX && mouseX < 400 && mouseY < 600 && 0 < mouseY) {
+    else if (300 < mouseX && mouseX < 400 && 0 < mouseY && mouseY < 600) {
         image(img4, 0, 0, 800, 600);
         document.getElementById("main-paragraph").style.display = "none";
         document.getElementById("paragraph-1").style.display = "none";
@@ -36,7 +36,7 @@ function draw() {
         document.getElementById("paragraph-3").style.display = "none";
         document.getElementById("enter").style.display = "none";
     }
-    else if (100 < mouseX && mouseX < 300 && mouseY < 600 && 0 < mouseY) {
+    else if (100 < mouseX && mouseX < 300 && 0 < mouseY && mouseY < 600) {
         image(img3, 0, 0, 800, 600);
         document.getElementById("main-paragraph").style.display = "none";
         document.getElementById("paragraph-1").style.display = "block";
